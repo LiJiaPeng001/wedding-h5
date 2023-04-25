@@ -48,7 +48,7 @@
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "/src/**": "eslint --fix"
+    "*.{vue,ts}": "eslint --fix"
   },
   "eslintConfig": {
     "extends": [
