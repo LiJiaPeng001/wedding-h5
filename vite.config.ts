@@ -34,6 +34,7 @@ export default defineConfig({
         'vue/macros',
         'vue-router',
         '@vueuse/core',
+        'pinia',
       ],
       dts: true,
       dirs: [
